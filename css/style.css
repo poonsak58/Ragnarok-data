@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Prompt-Regular';
-    src: url('/fonts/Prompt-Regular.ttf')
+    src: url('/Ragnarok-data/fonts/Prompt-Regular.ttf')
 }
-
+/* { process.env.BACKEND_URL + '/css/style.css'} */
 @font-face {
     font-family: 'Prompt-Medium';
-    src: url('/fonts/Prompt-Medium.ttf')
+    src: url('/Ragnarok-data/fonts/Prompt-Medium.ttf')
 }
 
 @font-face {
     font-family: 'Prompt-Bold';
-    src: url('/fonts/Prompt-Bold.ttf')
+    src: url('/Ragnarok-data/fonts/Prompt-Bold.ttf')
 }
 
 h1, h2, h3, h4, h5, h6 {
