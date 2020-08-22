@@ -30,6 +30,9 @@ class Layout extends Component {
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                     <link href={process.env.BACKEND_URL + '/fontawesome-free/css/all.min.css'} rel="stylesheet" type="text/css" />
                     <link rel="stylesheet" href={process.env.BACKEND_URL + '/css/style.css'} />
+
+                    <link rel="shortcut icon" href={process.env.BACKEND_URL + '/icon/icon.ico'}/>
+
                     <title>{title}</title>
                 </Head>
                 <Header />

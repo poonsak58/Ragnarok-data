@@ -39,11 +39,13 @@ body {
     font-size: 20px;
     color: #212529;
     font-family: 'Lora', 'Times New Roman', serif;
+    background-color: #212529 !important;
 }
 
 p {
     line-height: 1.5;
     margin: 30px 0;
+    color: white;
 }
 
 p a {
@@ -53,6 +55,11 @@ p a {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+hr {
+    border: 1px solid darkgoldenrod !important;
 }
 
 a {
@@ -220,7 +227,7 @@ header.masthead .page-heading, header.masthead .post-heading, header.masthead .s
 
 @media only screen and (min-width: 768px) {
     header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
-        padding: 200px 0;
+        padding: 100px 0;
     }
 }
 
@@ -313,7 +320,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview>.post-meta>a {
     text-decoration: none;
-    color: #212529;
+    color: white;
 }
 
 .post-preview>.post-meta>a:focus, .post-preview>.post-meta>a:hover {
