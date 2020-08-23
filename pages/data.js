@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Layout from '../components/Layout'
 import { table } from '../public/resources/blog'
+import Link from 'next/link'
 
 class Data extends Component {
   render() {
@@ -29,18 +30,23 @@ class Data extends Component {
               {table.map((value, index) => {
                 return (
                   <div key={index}>
-                    <div className="row">
-                      <div className="col-lg-2 col-sm-2 col-5">
-                        <img src={process.env.BACKEND_URL + '/images/logo/logo.png'} alt="" className="img-thumbnail d-block" width="200" height="200" />
-                      </div>
-                      <div className="col-lg-10 col-sm-10 col-7">
-                        <h2>{value.blog_name}</h2>
-                        <p>Version: {value.version}
-                          <br/>Update: {value.update_date}
-                        </p>
-                      </div>
-                    </div>
+                    <Link href={'/data/' + value.url} as={process.env.BACKEND_URL + '/data/' + value.url}>
+                      <a>
+                        <div className="row">
 
+                          <div className="col-lg-4 col-sm-4 col-5">
+                            <img src={process.env.BACKEND_URL + '/images/' + value.image_name} alt="" className="img-thumbnail d-block" width="300" height="300" />
+                          </div>
+                          <div className="col-lg-8 col-sm-8 col-7">
+                            <h2>{value.blog_name}</h2>
+                            <p>Version: {value.version}
+                              <br />Update: {value.update_date}
+                            </p>
+                          </div>
+
+                        </div>
+                      </a>
+                    </Link>
                     <hr />
                   </div>
                 )
@@ -48,7 +54,7 @@ class Data extends Component {
             </div>
           </div>
         </div>
-      </Layout>
+      </Layout >
     )
   }
 }

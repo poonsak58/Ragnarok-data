@@ -28,8 +28,8 @@ class Layout extends Component {
                 <Head>
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                    <link href={process.env.BACKEND_URL + '/fontawesome-free/css/all.min.css'} rel="stylesheet" type="text/css" />
-                    <link rel="stylesheet" href={process.env.BACKEND_URL + '/css/style.css'} />
+                    <link href={process.env.BACKEND_URL + '/fontawesome-free/css/all.min.css?v=15151515'} rel="stylesheet" type="text/css" />
+                    <link rel="stylesheet" href={process.env.BACKEND_URL + '/css/style.css?v=51651561651'} />
 
                     <link rel="shortcut icon" href={process.env.BACKEND_URL + '/icon/icon.ico'}/>
 

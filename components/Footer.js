@@ -35,9 +35,11 @@ const Footer = (props) => {
                                     </a>
                                 </li>
                             </ul>
-                            
-                            <p className="copyright">
+
+                            <p className="copyright my-3">
                                 <span className="text-danger">Powered By. <span className="text-muted">{company}</span></span> | <span className="text-danger">Contact <span className="text-muted">{email}</span></span>
+                            </p>
+                            <p>
                                 <span className="copyright text-muted d-block">Copyright &copy; 2020</span>
                             </p>
                         </div>
