@@ -36,7 +36,7 @@ class Data extends Component {
 
                 <p>เพิ่ม Minimap ในหลาย ๆ พื้นที่ที่หายไปในเกม</p>
 
-                <p>Download : <a href="https://mega.nz/file/dUAGWCAZ#n_bGG0lgbPgvw4gkkVbQ24s0W2dutUkiEJNDMZ4zSkI" target="_blank">Mega</a></p>
+                <p>Download : <a href="https://mega.nz/file/tVxiHS7Y#WAePrzP84y1Kk7W_gDtJ2AOaY5oUIioYPLKhwqgai_k" target="_blank">Mega</a></p>
 
                 <How2Install />
               </div>
