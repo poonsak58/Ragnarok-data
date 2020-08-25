@@ -6,13 +6,13 @@ const table = [
     //     "version": "1.0",
     //     "update_date": "23-08-2020"
     // },
-    // {
-    //     "url": "table-somemap",
-    //     "image_name": "xxxx.png",
-    //     "blog_name": "พื้นตารางบาง Map (Mapฟาร์ม)",
-    //     "version": "1.0",
-    //     "update_date": "23-08-2020"
-    // },
+    {
+        "url": "table-somemap",
+        "image_name": "gray_map_table.png",
+        "blog_name": "พื้นตาราง",
+        "version": "1.0",
+        "update_date": "23-08-2020"
+    },
     // {
     //     "url": "big-card",
     //     "image_name": "xxxx.png",
@@ -20,13 +20,13 @@ const table = [
     //     "version": "1.0",
     //     "update_date": "23-08-2020"
     // },
-    // {
-    //     "url": "big-item",
-    //     "image_name": "xxxx.png",
-    //     "blog_name": "ไอเทมใหญ่",
-    //     "version": "1.0",
-    //     "update_date": "23-08-2020"
-    // },
+    {
+        "url": "big-item",
+        "image_name": "item_big.png",
+        "blog_name": "ไอเทมใหญ่",
+        "version": "1.0",
+        "update_date": "23-08-2020"
+    },
     {
         "url": "minimap",
         "image_name": "minimap.png",

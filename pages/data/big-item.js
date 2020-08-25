@@ -30,13 +30,13 @@ class Data extends Component {
                 {/* <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p> */}
 
                 <a href="#">
-                  <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/bathory.png'} alt="" />
+                  <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/item_big.png'} alt="" />
                 </a>
-                <span className="caption text-muted">แม่มดในห้องครัวอีเดน.</span>
+                <span className="caption text-muted">ตัวอย่าง.</span>
 
-                <p>ดาต้าลบเสียงแม่มดในห้องครัวอีเดน</p>
+                <p>ไอเทมใหญ่</p>
 
-                <p>Download : <a href="http://spaceipsum.com/">Mega</a></p>
+                <p>Download : <a href="https://mega.nz/file/pZQ2BIYK#Oeu-c4b9NZblmDZ7fFORmIAMHp8WcUJXw_Nbx7AwG7M" target="_blank">Mega</a></p>
               </div>
             </div>
           </div>
