@@ -9,6 +9,12 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/data": { page: "/data" },
+      "/data/table-somemap": { page: "/data/table-somemap" },
+      "/data/big-item": { page: "/data/big-item" },
+      "/data/minimap": { page: "/data/minimap" },
+      "/data/sexy-kafra": { page: "/data/sexy-kafra" },
+      "/data/remove-sound-bathory": { page: "/data/remove-sound-bathory" },
+      "/data/sign-kafra-eden": { page: "/data/sign-kafra-eden" },
     }
   },
   //assetPrefix: '',

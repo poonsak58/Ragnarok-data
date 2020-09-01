@@ -28,15 +28,19 @@ class Data extends Component {
             <div className="row">
               <div className="col-lg-8 col-md-10 mx-auto">
                 {/* <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p> */}
-
-                <a href="#">
-                  <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/minimap.png'} alt="" />
-                </a>
+                <div className="row">
+                  <div className="col">
+                    <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/minimap/1111.png'} alt="" />
+                  </div>
+                  <div className="col">
+                    <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/minimap/2222.png'} alt="" />
+                  </div>
+                </div>
                 <span className="caption text-muted">ตัวอย่าง มินิแมพที่หายไปในเกมส์.</span>
 
                 <p>เพิ่ม Minimap ในหลาย ๆ พื้นที่ที่หายไปในเกม</p>
 
-                <p>Download : <a href="https://mega.nz/file/tVxiHS7Y#WAePrzP84y1Kk7W_gDtJ2AOaY5oUIioYPLKhwqgai_k" target="_blank">Mega</a></p>
+                <p>Download : <a href="https://mega.nz/file/odJCRQIK#SIlpULtkL2xoaNqEn2uYasrtDN_dU9LPRfyCIfZ8juU" target="_blank">Mega</a></p>
 
                 <How2Install />
               </div>

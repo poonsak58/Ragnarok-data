@@ -38,7 +38,7 @@ class Data extends Component {
 
                 <p>ป้ายบอก Npc Kafra กับ Eden เพิ่มความสะดวกเวลาคนเยอะในแมพ</p>
 
-                <p>Download : <a href="https://mega.nz/file/MMonSILR#wNCAVN39BJh5k9WY3OfKOeqNY3iKaY_0as3z03QMgiE" target="_blank">Mega</a></p>
+                <p>Download : <a href="https://mega.nz/file/UcJW3YSK#OJurXh6HBXFTcmobZ0CHSKYbIltgoKRR3VWk4GRIP0I" target="_blank">Mega</a></p>
 
                 <How2Install />
               </div>

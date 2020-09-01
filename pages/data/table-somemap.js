@@ -105,7 +105,7 @@ class Data extends Component {
                 <span className="text-danger">*ลบแค่ต้นไม้ออกจากแมพ แต่พื้นเหมือนเดิม</span>
                 <div className="row">
                   <div className="col-lg-6 col-md-12">
-                    <span className="caption text-white" style={{ fontSize: '16px' }}></span>
+                    <span className="caption text-white" style={{ fontSize: '16px' }}>Dremuci Forest (mosk_dun03)</span>
                     <a href="https://mega.nz/file/0dJmkQSS#dvu2RNaF4Fm9-8ZGoxGA-hlJNeq99skgqthvgBR2kMw" target="_blank">
                       <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/map_table/mosk_dun03.bmp'} alt="" />
                       <span className="caption" style={{ fontSize: '16px' }}>Download</span>
