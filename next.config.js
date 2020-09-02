@@ -16,6 +16,7 @@ module.exports = {
       "/data/remove-sound-bathory": { page: "/data/remove-sound-bathory" },
       "/data/sign-kafra-eden": { page: "/data/sign-kafra-eden" },
       "/data/class4-costume": { page: "/data/class4-costume" },
+      "/data/damage-number": { page: "/data/damage-number" },
     }
   },
   //assetPrefix: '',

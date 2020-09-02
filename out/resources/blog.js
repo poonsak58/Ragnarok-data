@@ -1,11 +1,11 @@
 const table = [
-    // {
-    //     "url": "table-allmap",
-    //     "image_name": "xxxx.png",
-    //     "blog_name": "พื้นตารางทุก Map",
-    //     "version": "1.0",
-    //     "update_date": "23-08-2020"
-    // },
+    {
+        "url": "damage-number",
+        "image_name": "number_fighting.png",
+        "blog_name": "ตัวเลขดาเมจใหม่",
+        "version": "1.0",
+        "update_date": "23-08-2020"
+    },
     {
         "url": "class4-costume",
         "image_name": "class444.png",

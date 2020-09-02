@@ -30,13 +30,13 @@ class Data extends Component {
                 {/* <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p> */}
 
                 <a href="#">
-                  <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/class444.png'} alt="" />
+                  <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/number_fighting.png'} alt="" />
                 </a>
                 <span className="caption text-muted">ตัวอย่าง.</span>
 
-                <p>Class 4 Costume สำหรับคนที่เปลี่ยนชุดเป็น Second</p>
+                <p>ตัวเลขดาเมจเท่ ๆ</p>
 
-                <p>Download : <a href="https://mega.nz/file/EURl0SjS#ktzuhcoU6kNUEF2Y1xEm0wqmGA7kz4OyL7KNrxhBXz4" target="_blank">Mega</a></p>
+                <p>Download : <a href="https://mega.nz/file/4M53jZDI#RWfsgd15o7M5EpcLxq0rSgnO200arWXOw6CPw7A2xnM" target="_blank">Mega</a></p>
               </div>
             </div>
           </div>
