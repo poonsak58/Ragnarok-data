@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import Layout from '../../components/Layout'
-import How2Install from '../../components/How2Install'
+import Link from 'next/link'
 
 class Data extends Component {
   render() {
 
     return (
-      <Layout title="รูป Kafra sexy">
+      <Layout title="Class4 Costume Second">
         <header className="masthead"
           style={{ backgroundImage: 'url(' + 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/daf985c8-c65b-4c6c-a0bc-ed2de199329a/d1ykf03-0693f0c1-f688-42e9-8ceb-60a6555e0cb8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZGFmOTg1YzgtYzY1Yi00YzZjLWEwYmMtZWQyZGUxOTkzMjlhXC9kMXlrZjAzLTA2OTNmMGMxLWY2ODgtNDJlOS04Y2ViLTYwYTY1NTVlMGNiOC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.K5Imu_7_iCz1wIz0pa-R1mrQHrSzIzwX248sG1ycv4Q' + ')' }}
         >
@@ -15,7 +15,7 @@ class Data extends Component {
             <div className="row">
               <div className="col-lg-8 col-md-10 mx-auto">
                 <div className="site-heading">
-                  <h2>รูป Kafra sexy</h2>
+                  <h2>Class4 Costume Second</h2>
                   <span className="subheading">Version: 1.0<br />Update: 23-08-2020</span>
                 </div>
               </div>
@@ -29,21 +29,14 @@ class Data extends Component {
               <div className="col-lg-8 col-md-10 mx-auto">
                 {/* <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p> */}
 
-                <div className="row">
-                  <div className="col">
-                    <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/kafra_sexy_thumbnail.png'} alt="" />
-                  </div>
-                  <div className="col">
-                    <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/kafra_s4.png'} alt="" />
-                  </div>
-                </div>
-                <span className="caption text-muted">Kafra sexy.</span>
+                <a href="#">
+                  <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/class444.png'} alt="" />
+                </a>
+                <span className="caption text-muted">ตัวอย่าง.</span>
 
-                <p>เอาไว้เพิ่มพลังในการเล่นเกม 555+</p>
+                <p>Class 4 Costume สำหรับคนที่เปลี่ยนชุดเป็น Second</p>
 
-                <p>Download : <a href="https://mega.nz/file/UcJW3YSK#OJurXh6HBXFTcmobZ0CHSKYbIltgoKRR3VWk4GRIP0I" target="_blank">Mega</a></p>
-
-                <How2Install />
+                <p>Download : <a href="https://mega.nz/file/1dYQ0CwT#6AbU4irpf2swBDlYVZQqEbNEMhm0tsZHDe8b0RG80fU" target="_blank">Mega</a></p>
               </div>
             </div>
           </div>
@@ -54,3 +47,5 @@ class Data extends Component {
 }
 
 export default Data
+
+// https://mega.nz/file/1dYQ0CwT#6AbU4irpf2swBDlYVZQqEbNEMhm0tsZHDe8b0RG80fU

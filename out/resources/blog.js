@@ -7,6 +7,13 @@ const table = [
     //     "update_date": "23-08-2020"
     // },
     {
+        "url": "class4-costume",
+        "image_name": "class444.png",
+        "blog_name": "คอสตูม Class 4",
+        "version": "1.0",
+        "update_date": "23-08-2020"
+    },
+    {
         "url": "minimap",
         "image_name": "minimap.png",
         "blog_name": "เพิ่ม Minimap ที่ไม่มี",
