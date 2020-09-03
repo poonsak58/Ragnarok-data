@@ -29,9 +29,19 @@ class Data extends Component {
               <div className="col-lg-8 col-md-10 mx-auto">
                 {/* <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p> */}
 
-                <a href="#">
-                  <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/class444.png'} alt="" />
-                </a>
+                <div className="row">
+                  <div className="col">
+                    <a href="#">
+                      <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/class333.png'} alt="" />
+                    </a>
+                  </div>
+                  <div className="col">
+                    <a>
+                      <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/class444.png'} alt="" />
+                    </a>
+                  </div>
+                </div>
+
                 <span className="caption text-muted">ตัวอย่าง.</span>
 
                 <p>Class 4 Costume สำหรับคนที่เปลี่ยนชุดเป็น Second</p>

@@ -31,7 +31,7 @@ class Data extends Component {
                 return (
                   <div key={index}>
                     <Link href={'/data/' + value.url} as={process.env.BACKEND_URL + '/data/' + value.url}>
-                      <a>
+                      <a style={{textDecoration: 'none'}}>
                         <div className="row">
 
                           <div className="col-lg-4 col-sm-4 col-5">
