@@ -5,12 +5,14 @@ import NewWorldQuest from '../../components/quest/NewWorldAccessQuest'
 import TheRoyalBanquet from '../../components/quest/TheRoyalBanquet'
 import TerraGloria from '../../components/quest/TerraGloria'
 import Illusion from '../../components/quest/Illusion'
+import IllusionDialy from '../../components/quest/IllusionDialy'
 
 const Banquet = () => {
 
     const [royalToggle, setRoyalToggle] = useState(false)
     const [terraToggle, setTerraToggle] = useState(false)
     const [illusionToggle, setIllusionToggle] = useState(false)
+    const [illusionDToggle, setIllusionDToggle] = useState(false)
 
     const copyNavi = (e) => {
         let map = e.target.getAttribute("data-map")
@@ -89,6 +91,8 @@ const Banquet = () => {
                     { terraToggle && <TerraGloria copyNavi={copyNavi} /> }
                     <span style={{cursor: 'pointer', display: 'block', color: '#58a9ff'}} onClick={() => setIllusionToggle(!illusionToggle)}>{ illusionToggle ? <i className="fas fa-angle-double-down"></i> : <i className="fas fa-angle-double-right"></i> } EP 17.1 - Illusion</span>
                     { illusionToggle && <Illusion copyNavi={copyNavi} /> }
+                    <span style={{cursor: 'pointer', display: 'block', color: '#58a9ff'}} onClick={() => setIllusionDToggle(!illusionDToggle)}>{ illusionDToggle ? <i className="fas fa-angle-double-down"></i> : <i className="fas fa-angle-double-right"></i> } EP 17.1 - Illusion Dialy's Quest</span>
+                    { illusionDToggle && <IllusionDialy copyNavi={copyNavi} /> }
 
                 </div>
             </article>
