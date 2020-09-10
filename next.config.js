@@ -17,6 +17,8 @@ module.exports = {
       "/data/sign-kafra-eden": { page: "/data/sign-kafra-eden" },
       "/data/class4-costume": { page: "/data/class4-costume" },
       "/data/damage-number": { page: "/data/damage-number" },
+      "/quest/the_royal_banquet": { page: "/quest/the_royal_banquet" },
+      
     }
   },
   //assetPrefix: '',

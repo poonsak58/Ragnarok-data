@@ -32,6 +32,15 @@ const Header = () => {
                                 </a>
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link href="/quest/the_royal_banquet" as={process.env.BACKEND_URL + '/quest/the_royal_banquet'}>
+                                <a className="nav-link">
+                                    <img src={process.env.BACKEND_URL + '/images/quest.png'} alt="" height="50" style={{marginBottom: '10px'}} />
+                                    <br />
+                                เควส EP17.1
+                                </a>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
