@@ -6,14 +6,14 @@ export default ({ copyNavi }) => {
 
             <ol><li>Go in the Prontera Castle and head to your room <span className="naviText" data-map="prt_cas_q" data-x="29" data-y="28" onClick={(e) => copyNavi(e)}>(prt_cas_q 29, 28)</span><span className="naviCopied d-none">Copied!</span>. <b>Nihil</b> has been waiting for you and he asks you to wait for Spica.
 <dl><dt><img alt="Tg 38.png" src="https://www.novaragnarok.com/wiki/images/7/73/Tg_38.png" width="300" height="175" /></dt></dl></li>
-                <li>Once she arrives, speak with <b>Spica</b>. You learn that the chamberlain who gave the drink to Nihil was from the Schwarzwald Republic.</li>
-                <li>Speak with Nihil again, he'll set up a meeting with Crux.</li>
-                <li>Go see Crux in the Lighthalzen Airport <span className="naviText" data-map="lhz_airport" data-x="189" data-y="39" onClick={(e) => copyNavi(e)}>(lhz_airport 189, 39)</span><span className="naviCopied d-none">Copied!</span>. He suspects that the culprit's name is most likely Bruno.
+                <li>Once she arrives, speak with <b>Spica</b>.</li>
+                <li>Speak with <b>Nihil</b> again, he'll set up a meeting with Crux.</li>
+                <li>Go see Crux in the Lighthalzen Airport <span className="naviText" data-map="lhz_airport" data-x="189" data-y="39" onClick={(e) => copyNavi(e)}>(lhz_airport 189, 39)</span><span className="naviCopied d-none">Copied!</span>. He suspects that the culprit's name is most likely Man.
 <dl><dt><img alt="Tg 05.png" src="https://www.novaragnarok.com/wiki/images/9/99/Tg_05.png" width="300" height="175" /></dt></dl></li>
                 <li>Search the north side of Lightalzen, near <span className="naviText" data-map="lighthalzen" data-x="186" data-y="293" onClick={(e) => copyNavi(e)}>(lighthalzen 186, 293)</span><span className="naviCopied d-none">Copied!</span>.</li>
-                <li>Investigate the slums and speak with Bruno again <span className="naviText" data-map="lighthalzen" data-x="309" data-y="263" onClick={(e) => copyNavi(e)}>(lighthalzen 309, 263)</span><span className="naviCopied d-none">Copied!</span>. Crux apprehends Bruno and will interrogate him later.
+                <li>talk to Guard <span className="naviText" data-map="lighthalzen" data-x="267" data-y="200" onClick={(e) => copyNavi(e)}>(lighthalzen 267, 200)</span><span className="naviCopied d-none">Copied!</span> until he give you pass to slum. and speak with Man again <span className="naviText" data-map="lighthalzen" data-x="309" data-y="263" onClick={(e) => copyNavi(e)}>(lighthalzen 309, 263)</span><span className="naviCopied d-none">Copied!</span>. Crux apprehends Man and will interrogate him later.
 <dl><dt><img alt="Tg 07.png" src="https://irowiki.org/w/images/b/bc/Man-Bruno-Lighthalzen.png" width="300" height="175" /><img alt="Tg 07.png" src="https://www.novaragnarok.com/wiki/images/3/30/Tg_07.png" width="300" height="175" /></dt></dl></li>
-                <li>Head back to your room in the Prontera Castle <span className="naviText" data-map="prt_cas_q" data-x="29" data-y="28">(prt_cas_q 29, 28)</span><span className="naviCopied d-none">Copied!</span> and talk to Nihil.</li>
+                <li>Head back to your room in the Prontera Castle <span className="naviText" data-map="prt_cas_q" data-x="29" data-y="28" onClick={(e) => copyNavi(e)}>(prt_cas_q 29, 28)</span><span className="naviCopied d-none">Copied!</span> and talk to Nihil.</li>
                 <li>Go to Yuno and enter the Yuno Airport. Crux will be waiting for you there. <span className="naviText" data-map="y_airport" data-x="168" data-y="41" onClick={(e) => copyNavi(e)}>(y_airport 168, 41)</span><span className="naviCopied d-none">Copied!</span>.
 <dl><dt><img alt="Tg 08.png" src="https://www.novaragnarok.com/wiki/images/f/f2/Tg_08.png" width="300" height="175" /></dt></dl></li>
                 <li>Go to the Lighthalzen Hotel <span className="naviText" data-map="lhz_in02" data-x="238" data-y="171" onClick={(e) => copyNavi(e)}>(lhz_in02 238, 171)</span><span className="naviCopied d-none">Copied!</span> and speak with <b>Philofontes</b>. You'll have to join the Rebellion Empire and defeat Luke.
@@ -57,9 +57,9 @@ export default ({ copyNavi }) => {
             <h2><span className="mw-headline" id="Ritual_of_Blessing">Infiltrate Heart Hunter Base</span></h2>
             <ol><li>Speak with the <b>Rebellion Squadder</b> <span className="naviText" data-map="rebel_in" data-x="65" data-y="46" onClick={(e) => copyNavi(e)}>(rebel_in 65, 46)</span><span className="naviCopied d-none">Copied!</span>, Tess comes up and wants you to come to the Einbroch Hotel.
 <dl><dt><img alt="Tg28.png" src="https://www.novaragnarok.com/wiki/images/d/d7/Tg28.png" width="300" height="175" /></dt></dl></li>
-                <li>To go to the Enbroch hotel <span className="naviText" data-map="einbroch" data-x="255" data-y="199" onClick={(e) => copyNavi(e)}>(einbroch 255, 199)</span><span className="naviCopied d-none">Copied!</span>,  and then go to second floor simply walk to the left. The meeting is at <span className="naviText" data-map="ein_in01" data-x="274" data-y="243" onClick={(e) => copyNavi(e)}>(ein_in01 274, 243)</span><span className="naviCopied d-none">Copied!</span>. Speak with <b>Nihil</b> inside the hotel room.
+                <li>To go to the Enbroch hotel ,  and then go to second floor simply walk to the left. The meeting is at <span className="naviText" data-map="ein_in01" data-x="274" data-y="243" onClick={(e) => copyNavi(e)}>(ein_in01 274, 243)</span><span className="naviCopied d-none">Copied!</span>. Speak with <b>Nihil</b> inside the hotel room.
 <dl><dt><img alt="Tg40.png" src="https://www.novaragnarok.com/wiki/images/d/da/Tg40.png" width="300" height="175" /></dt></dl></li>
-                <li>The operation base camp is North of Einbroch, at the northeast corner of the map <span className="naviText" data-map="ein_fild04" data-x="281" data-y="333" onClick={(e) => copyNavi(e)}>(ein_fild04 281, 333)</span><span className="naviCopied d-none">Copied!</span>. Speak with <b>Julian</b> and he tell him you're ready. You'll need to make a party for the Heart Hunter War Base 1 instance.
+                <li>The operation base camp is North of Einbroch, at the northeast corner of the map <span className="naviText" data-map="ein_fild04" data-x="281" data-y="337" onClick={(e) => copyNavi(e)}>(ein_fild04 281, 337)</span><span className="naviCopied d-none">Copied!</span>. Speak with <b>Julian</b> and he tell him you're ready. You'll need to make a party for the Heart Hunter War Base 1 instance.
 <dl><dt><img alt="Tg30.png" src="https://www.novaragnarok.com/wiki/images/4/47/Tg30.png" width="300" height="175" /></dt></dl></li>
                 <li>Talk to <b>Julian</b> to reserve the instance, and then <b>Striker Unit Commander</b> to enter.</li></ol>
 
@@ -92,7 +92,7 @@ export default ({ copyNavi }) => {
             <dl><dt><img alt="Tg57.png" src={process.env.BACKEND_URL + '/images/Warner.png'} width="300" style={{float: 'right'}} /></dt></dl>
             <ol><li>Speak with <b>Eisen Werner</b> at the entrance.</li>
                 <li>Move forward and speak with him again at the end of the corridor.</li>
-                <li>You'll have to active the Security Devices on each side of the room. If you pick the wrong answer, you'll have to start over with both devices.<br /><i>Trick: just spam the first option, red is more likely to be the answer.</i></li>
+                <li>You'll have to active the Security Devices on each side of the room. If you pick the wrong answer, you'll have to start over with both devices.<br /><i>Trick: answer in table.</i></li>
                 <li>Enter the portal to go to the next area.</li>
                 <li>Move up and speak with <b>Eisen</b> again. You'll have to active the two security devices on the sides once more.</li>
                 <li>Enter the portal to go to the next area.</li>
