@@ -22,7 +22,9 @@ const table = [
         "name": "Etc",
         "list": [
             "Elunium",
+            "Rough Elunium",
             "Oridecon",
+            "Rough Oridecon",
             "Bradium",
             "Carnium",
             "Cor Core",
