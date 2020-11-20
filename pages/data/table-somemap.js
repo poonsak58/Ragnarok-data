@@ -98,8 +98,67 @@ class Data extends Component {
                       <span className="caption" style={{ fontSize: '16px' }}>Download</span>
                     </a>
                   </div>
+                  <div className="col-lg-6 col-md-12">
+                    <span className="caption text-white" style={{ fontSize: '16px' }}>BioLab 4</span>
+                    <a href="https://mega.nz/file/oV4niSrZ#PBOpe4r1uLCj0JjPlBbkiAQjrrXmMLJxRZb-f7a6g3k" target="_blank">
+                      <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/map_table/lhz_dun04.png'} alt="" />
+                      <span className="caption" style={{ fontSize: '16px' }}>Download</span>
+                    </a>
+                  </div>
                 </div>
 
+                <hr className="mt-5" />
+                <h2 id="map_table">Old Glast Heim (บอกจุดมอนเกิด)</h2>
+                <div className="row">
+                  <div className="col-lg-6 col-md-12" style={{border: 'solid 1px white', padding: '10px 10px'}}>
+                    <span style={{
+                      height: '25px',
+                      width: '25px',
+                      backgroundColor: 'aqua',
+                      borderRadius: '50%',
+                      display: 'inline-block'
+                    }}></span> <span style={{ color: 'white' }}>ผู้รอดชีวิต</span>
+                    <br />
+                    <span style={{
+                      height: '25px',
+                      width: '25px',
+                      backgroundColor: 'red',
+                      borderRadius: '50%',
+                      display: 'inline-block'
+                    }}></span> <span style={{ color: 'white' }}>ทางเข้าห้องสมบัติ</span>
+                    <span className="caption text-white" style={{ fontSize: '16px' }}>1@gl_k</span>
+                    <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/map_table/1@gl_k.bmp'} alt="" />
+                  </div>
+                  <div className="col-lg-6 col-md-12" style={{border: 'solid 1px white', padding: '10px 10px'}}>
+                    <span style={{
+                      height: '25px',
+                      width: '25px',
+                      backgroundColor: 'lawnGreen',
+                      borderRadius: '50%',
+                      display: 'inline-block'
+                    }}></span> <span style={{ color: 'white' }}>จุดมอนเตอร์เกิด</span>
+                    <br />
+                    <span style={{
+                      height: '25px',
+                      width: '25px',
+                      backgroundColor: 'red',
+                      borderRadius: '50%',
+                      display: 'inline-block'
+                    }}></span> <span style={{ color: 'white' }}>จุดบอสเกิด</span>
+                    <span className="caption text-white" style={{ fontSize: '16px' }}>2@gl_k</span>
+                    <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/map_table/2@gl_k.bmp'} alt="" />
+                  </div>
+                </div>
+                <br/>
+                <div className="row">
+                  <div className="col-lg-12 col-md-12">
+                    <img className="img-fluid mx-auto d-block rounded" src={process.env.BACKEND_URL + '/images/map_table/glast_heim_spot.png'} alt="" />
+                    <a href="https://mega.nz/file/oNoBCICA#WmYGSPumxNEo-6oV_xoaR9B_zdnePdxLs6BFg4FgDsA" target="_blank">
+                      <span className="caption" style={{ fontSize: '16px' }}>Download</span>
+                    </a>
+                  </div>
+                </div>
+{/* 
                 <hr className="mt-5" />
                 <h2 id="map_table">ลบแค่ต้นไม้ พื้นเดิม</h2>
                 <span className="text-danger">*ลบแค่ต้นไม้ออกจากแมพ แต่พื้นเหมือนเดิม</span>
@@ -111,7 +170,7 @@ class Data extends Component {
                       <span className="caption" style={{ fontSize: '16px' }}>Download</span>
                     </a>
                   </div>
-                </div>
+                </div> */}
 
                 <How2Install />
               </div>

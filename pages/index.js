@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Layout from '../components/Layout'
-import { table } from '../public/resources/monster'
 
 class Index extends Component {
 
@@ -14,7 +13,6 @@ class Index extends Component {
 
   render() {
     // console.log(this.props.blogs)
-    console.log(table)
     return (
       <Layout title="หน้าแรก">
         <header className="masthead"

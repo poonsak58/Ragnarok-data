@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Layout from '../../components/Layout'
+import { table } from '../../public/resources/bigItem'
 import Link from 'next/link'
 
 class Data extends Component {
@@ -37,6 +38,32 @@ class Data extends Component {
                 <p>ไอเทมใหญ่</p>
 
                 <p>Download : <a href="https://mega.nz/file/pZQ2BIYK#Oeu-c4b9NZblmDZ7fFORmIAMHp8WcUJXw_Nbx7AwG7M" target="_blank">Mega</a></p>
+                <br/> 
+                <h2>Sprite Custom</h2>
+                <div className="row">
+                  {
+                    table && table.map((value, index) => {
+                      return (
+                        <>
+                          <div className="col">
+                            <li style={{color: 'white', listStyleType: 'none'}}>{value.name}</li>
+                            <ul style={{listStyleType: 'disc !important', color: 'white'}}>
+                              {
+                                value.list && value.list.map((value, index) => {
+                                  return (
+                                    <>
+                                      <li>{value}</li>
+                                    </>
+                                  )
+                                })
+                              }
+                            </ul>
+                          </div>
+                        </>
+                      )
+                    })
+                  }
+                </div>
               </div>
             </div>
           </div>

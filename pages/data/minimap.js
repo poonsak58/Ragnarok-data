@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import Layout from '../../components/Layout'
 import How2Install from '../../components/How2Install'
+import { table } from '../../public/resources/minimap'
 
 class Data extends Component {
   render() {
+    const half = Math.ceil(table.length / 2);
+    const firstHalf = table.splice(0, half)
+    const secondHalf = table.splice(-half)
+    const mapArray = [firstHalf, secondHalf]
+    console.log(mapArray)
 
     return (
       <Layout title="เพิ่ม Minimap ที่ไม่มี">
@@ -41,7 +47,29 @@ class Data extends Component {
                 <p>เพิ่ม Minimap ในหลาย ๆ พื้นที่ที่หายไปในเกม</p>
 
                 <p>Download : <a href="https://mega.nz/file/odJCRQIK#SIlpULtkL2xoaNqEn2uYasrtDN_dU9LPRfyCIfZ8juU" target="_blank">Mega</a></p>
-
+                <br />
+                <h2>Minimap Custom</h2>
+                <div className="row">
+                  {
+                    mapArray && mapArray.map((value, index) => {
+                      return (
+                        <>
+                          <div className="col">
+                            <ul style={{listStyleType: 'disc !important', color: 'white'}}>
+                              {value && value.map((v, i) => {
+                                return (
+                                  <>
+                                    <li>{v}</li>
+                                  </>
+                                )
+                              })}
+                            </ul>
+                          </div>
+                        </>
+                      )
+                    })
+                  }
+                </div>
                 <How2Install />
               </div>
             </div>
